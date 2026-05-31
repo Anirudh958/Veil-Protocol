@@ -1063,7 +1063,7 @@ $f$ & Trials & Empirical $P(\text{deanon})$ & Theoretical bound & Status \\
 
 \subsection{Implementation Validation}
 
-We implement the core protocol in 2,544 lines of Rust (Apache 2.0), including the relay proof circuit, penalty-log CRDT, credit state machine, Sphinx packet processing, and Shamir secret sharing. All 52 tests pass (34 protocol correctness + 9 circuit + 9 adversarial-input security tests), verifying:
+We implement the core protocol in 2,857 lines of Rust (Apache 2.0), including the relay proof circuit, penalty-log CRDT, credit state machine, Sphinx packet processing, and Shamir secret sharing. All 53 tests pass (34 protocol correctness + 9 circuit + 10 adversarial-input security tests), verifying:
 
 \begin{itemize}[nosep]
     \item \textbf{Circuit correctness}: Relay step circuit (12,387 constraints on arkworks 0.4~\cite{arkworks}) accepts honest witnesses and rejects forged receipts, corrupted Merkle proofs, and invalid issuers.
