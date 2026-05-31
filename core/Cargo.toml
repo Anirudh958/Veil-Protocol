@@ -1,0 +1,23 @@
+[package]
+name = "veil-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Core protocol logic for the Veil metadata-private messaging protocol"
+
+[dependencies]
+ark-ff.workspace = true
+ark-ec.workspace = true
+ark-bn254.workspace = true
+ark-ed-on-bn254.workspace = true
+ark-std.workspace = true
+ark-serialize.workspace = true
+serde.workspace = true
+bincode.workspace = true
+rand.workspace = true
+rand_chacha.workspace = true
+sha2.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+rand = "0.8"

@@ -1,0 +1,108 @@
+{
+  "parameters": {
+    "N": 5000,
+    "L": 3,
+    "K": 5,
+    "T": 3,
+    "N_l": 1666,
+    "seed": 42
+  },
+  "results": [
+    {
+      "f": 0.05,
+      "trials": 500000,
+      "deanon_count": 0,
+      "empirical_deanon_rate": 0.0,
+      "theoretical_simple": 1.953125000000001e-11,
+      "theoretical_conservative": 1.956642031812726e-11,
+      "ratio": 0.0,
+      "bound_holds": true,
+      "entropy_bits": 7.945869823950432,
+      "constructive": true
+    },
+    {
+      "f": 0.08,
+      "trials": 500000,
+      "deanon_count": 0,
+      "empirical_deanon_rate": 0.0,
+      "theoretical_simple": 1.3421772800000003e-09,
+      "theoretical_conservative": 1.3445941658583435e-09,
+      "ratio": 0.0,
+      "bound_holds": true,
+      "entropy_bits": 8.588535510160167,
+      "constructive": true
+    },
+    {
+      "f": 0.1,
+      "trials": 500000,
+      "deanon_count": 0,
+      "empirical_deanon_rate": 0.0,
+      "theoretical_simple": 1.0000000000000005e-08,
+      "theoretical_conservative": 1.0018007202881158e-08,
+      "ratio": 0.0,
+      "bound_holds": true,
+      "entropy_bits": 8.876126441815465,
+      "constructive": true
+    },
+    {
+      "f": 0.12,
+      "trials": 2000000,
+      "deanon_count": 0,
+      "empirical_deanon_rate": 0.0,
+      "theoretical_simple": 5.159780351999998e-08,
+      "theoretical_conservative": 5.1690716731620623e-08,
+      "ratio": 0.0,
+      "bound_holds": true,
+      "entropy_bits": 9.09592370135274,
+      "constructive": true
+    },
+    {
+      "f": 0.15,
+      "trials": 10000000,
+      "deanon_count": 4,
+      "empirical_deanon_rate": 4e-07,
+      "theoretical_simple": 3.844335937499999e-07,
+      "theoretical_conservative": 3.8512585112169856e-07,
+      "ratio": 1.0386215280926474,
+      "bound_holds": true,
+      "entropy_bits": 9.33585498271212,
+      "constructive": true
+    },
+    {
+      "f": 0.18,
+      "trials": 10000000,
+      "deanon_count": 19,
+      "empirical_deanon_rate": 1.9e-06,
+      "theoretical_simple": 1.983592903679999e-06,
+      "theoretical_conservative": 1.987164799665017e-06,
+      "ratio": 0.9561360991903084,
+      "bound_holds": true,
+      "entropy_bits": 9.495814680621606,
+      "constructive": true
+    },
+    {
+      "f": 0.2,
+      "trials": 10000000,
+      "deanon_count": 48,
+      "empirical_deanon_rate": 4.8e-06,
+      "theoretical_simple": 5.120000000000003e-06,
+      "theoretical_conservative": 5.129219687875153e-06,
+      "ratio": 0.9358148591971235,
+      "bound_holds": true,
+      "entropy_bits": 9.567152913275603,
+      "constructive": true
+    },
+    {
+      "f": 0.22,
+      "trials": 10000000,
+      "deanon_count": 99,
+      "empirical_deanon_rate": 9.9e-06,
+      "theoretical_simple": 1.2072692177920001e-05,
+      "theoretical_conservative": 1.2094431719656951e-05,
+      "ratio": 0.8185585093601079,
+      "bound_holds": true,
+      "entropy_bits": 9.61428867848488,
+      "constructive": true
+    }
+  ]
+}

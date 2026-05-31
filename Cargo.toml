@@ -1,0 +1,43 @@
+[workspace]
+resolver = "2"
+members = [
+    "circuits",
+    "core",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+authors = ["Anirudh Gupta"]
+repository = "https://github.com/veil-protocol/veil"
+
+[workspace.dependencies]
+# Finite fields and curves
+ark-ff = "0.4"
+ark-ec = "0.4"
+ark-bn254 = "0.4"
+ark-ed-on-bn254 = "0.4"
+ark-std = "0.4"
+ark-serialize = "0.4"
+ark-relations = "0.4"
+ark-r1cs-std = "0.4"
+ark-crypto-primitives = { version = "0.4", features = ["crh", "merkle_tree"] }
+ark-snark = "0.4"
+ark-groth16 = "0.4"
+
+# Serialization
+serde = { version = "1", features = ["derive"] }
+bincode = "1"
+
+# Randomness
+rand = "0.8"
+rand_chacha = "0.3"
+
+# Utilities
+sha2 = "0.10"
+thiserror = "1"
+
+[profile.release]
+opt-level = 3
+lto = true

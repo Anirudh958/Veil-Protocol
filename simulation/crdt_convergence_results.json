@@ -1,0 +1,56 @@
+{
+  "parameters": {
+    "N": 5000,
+    "fanout": 8,
+    "trials": 20,
+    "churn_rate": 0.05,
+    "adversary_frac": 0.1
+  },
+  "convergence_results": {
+    "baseline": {
+      "mean_rounds": 5.0,
+      "max_rounds": 5
+    },
+    "churn_5pct": {
+      "mean_rounds": 5.0,
+      "max_rounds": 5
+    },
+    "adversary_10pct": {
+      "mean_rounds": 5.0,
+      "max_rounds": 5
+    },
+    "combined": {
+      "mean_rounds": 5.0,
+      "max_rounds": 5
+    },
+    "adversary_22pct": {
+      "mean_rounds": 5.05,
+      "max_rounds": 6
+    },
+    "scale_N100": {
+      "mean_rounds": 3.0,
+      "max_rounds": 3
+    },
+    "scale_N500": {
+      "mean_rounds": 4.0,
+      "max_rounds": 4
+    },
+    "scale_N1000": {
+      "mean_rounds": 4.0,
+      "max_rounds": 4
+    },
+    "scale_N2000": {
+      "mean_rounds": 5.0,
+      "max_rounds": 5
+    },
+    "scale_N5000": {
+      "mean_rounds": 5.0,
+      "max_rounds": 5
+    },
+    "scale_N10000": {
+      "mean_rounds": 5.0,
+      "max_rounds": 5
+    }
+  },
+  "consistency_verified": true
+}
