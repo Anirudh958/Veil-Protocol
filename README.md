@@ -66,6 +66,9 @@ Key contributions:
 2. **Growth-Isolation Impossibility** — no CRDT can merge reputation growth safely; penalty-log resolves this
 3. **Constructive Adversary Bound** — adversaries provide more privacy than they can extract
 
+## PrePrint
+Link: [https://doi.org/10.5281/zenodo.20507178](https://doi.org/10.5281/zenodo.20507178)
+
 ## License
 
 Apache 2.0 — use, modify, and deploy without restriction.
